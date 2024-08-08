@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     align-items: flex-end;
     gap: 8px;
+    background: linear-gradient(0deg, rgba(60, 85, 110, 0.06) 0%, rgba(60, 85, 110, 0.06) 100%), var(--white-white, #FFF);
 }
 
 .top-bar {
