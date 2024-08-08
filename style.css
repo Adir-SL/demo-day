@@ -56,4 +56,6 @@ body {
     align-items: flex-end;
     gap: 24px;
     align-self: stretch;
+    /* remove later */
+    padding-top: 24px;
 }
