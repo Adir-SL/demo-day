@@ -6,6 +6,7 @@
 body {
     overflow: hidden;
     direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-screen-layout {
