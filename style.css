@@ -148,6 +148,9 @@ input[type="checkbox"]::after {
     box-sizing: border-box;
     cursor: pointer;
 }
+input[type="checkbox"]:hover::after{
+    border-color: var(--dodger-blue-dodger-blue, #2979FF);
+}
 
 input[type="checkbox"]:checked::after {
     background-color: var(--dodger-blue-dodger-blue, #2979FF);
@@ -156,4 +159,8 @@ input[type="checkbox"]:checked::after {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+input[type="checkbox"]:checked:hover::after{
+    background-color: #2C6FDF;
 }
