@@ -39,6 +39,7 @@ body {
 .right-panel {
     display: flex;
     width: 376px;
+    min-width: 376px;
     height: 100%;
     padding: 32px;
     padding-top: 24px;
@@ -99,4 +100,21 @@ h3 {
     align-items: center;
     border-radius: var(--m, 24px);
     background: var(--dodger-blue-dodger-blue-8p, rgba(41, 121, 255, 0.08));
+}
+
+.card .content{
+    display: flex;
+    flex-grow: 1;
+}
+
+.card .inner-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 8px;
+}
+.card p{
+    color: var(--text-text-secondary, #7F8694);
+    margin: 0;
+    padding: 0;
 }
