@@ -59,3 +59,7 @@ body {
     /* remove later */
     padding-top: 24px;
 }
+
+h1{
+    color: var(--color-bay-of-many, #224687);
+}
