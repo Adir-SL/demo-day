@@ -127,3 +127,22 @@ h3 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+input[type="checkbox"]{
+    position: relative;
+    appearance: none;
+    width: 16px;
+}
+
+input[type="checkbox"]::after{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: -8px;
+    border: 1px solid #DCE1EC;
+    border-radius: 4px;
+}
+input[type="checkbox"]:checked::after{
+    background-color: blue;
+}
