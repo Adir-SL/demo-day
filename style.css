@@ -142,7 +142,9 @@ input[type="checkbox"]::after{
     bottom: -8px;
     border: 1px solid #DCE1EC;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 input[type="checkbox"]:checked::after{
-    background-color: blue;
+    background-color: var(--dodger-blue-dodger-blue, #2979FF);
+    border-width: 0;
 }
