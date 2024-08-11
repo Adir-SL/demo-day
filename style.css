@@ -105,6 +105,7 @@ h3 {
 .card .content{
     display: flex;
     flex-grow: 1;
+    gap: 8px;
 }
 
 .card .inner-content{
@@ -117,4 +118,9 @@ h3 {
     color: var(--text-text-secondary, #7F8694);
     margin: 0;
     padding: 0;
+}
+.card .icon{
+    width: 16px;
+    height: 16px;
+    background: red;
 }
